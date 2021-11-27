@@ -41,6 +41,11 @@ contract EWO_Character_NFT is ERC721, VRFConsumerBase, Ownable {
      * Chainlink VRF Coordinator address: 0xb3dCcb4Cf7a26f6cf6B120Cf5A73875B7BBc655B
      * LINK token address:                0x01BE23585060835E02B77ef475b0Cc51aA1e0709
      * Key Hash: 0x2ed0feb3e7fd2022120aa84fab1945545a9f2ffc9076fd6156fa96eaff4c1311
+     *
+     * Network: Matic Mumbai
+     * VRF Coordinator 0x8C7382F9D8f56b33781fE506E897a4F1e2d17255
+     * LINK Token 0x326c977e6efc84e512bb9c30f76e30c160ed06fb, 0xb0897686c545045aFc77CF20eC7A532E3120E0F1
+     * Key Hash 0x6e75b569a01ef56d18cab6a8e71e6600d6ce853834d4a5748b720d06f878b3a4
      */
     constructor(address _VRFCoordinator, address _LinkToken, bytes32 _keyhash)
         // public
